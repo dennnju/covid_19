@@ -1,19 +1,20 @@
 <?php
-
 function covid19ImpactEstimator($data)
-data : {
+
 	region: {
 		name:"Africa",
 		avarage:19.7,
 		avgDailyIncome:4,
 		avgDailyIncomePopulation:0.73
 	}
+	{
 	periodType:"days",
 	timeToElapse:38,
 	reportedCases:2747,
 	population:92931687,
-	totallHospitalBeds:678874
-		}
+	totallHospitalBeds:678874;
+	}
+		
 		estimate: {
 			impact: {
 				currentlyInfected:27470,
